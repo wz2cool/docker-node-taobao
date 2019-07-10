@@ -1,4 +1,4 @@
-FROM node:10.16-slim
+FROM node:6.15-slim
 
 RUN npm config set registry https://registry.npm.taobao.org
-RUN npm install -g gulp natives@1.1.6
+RUN npm install -g gulp
